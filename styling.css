@@ -1,0 +1,85 @@
+body
+{
+    font-family: Kantumruy Pro;
+    color: darkblue;
+}
+i
+{
+    font-size: 50px;
+}
+h4,h1, .prg, .cardD
+{
+    text-align: center;
+    padding: 10px;
+    
+}
+.ig ,.card , .sd
+{
+    width: 400px;
+    height: 40%;
+}
+.section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+.header
+{
+    width: 100%;
+    height: 50px;
+    position: sticky; top: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+.banner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/6a/a3/7f/6aa37fd0017bdb291ca8cbdd8b0ede52.gif);
+    background-size: cover;
+}
+.btn
+{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Kantumruy Pro;
+   
+}
+.right 
+{ 
+    padding-top: 30px;
+    float: right;
+    height: 500px;
+} 
+.left
+{
+    max-width: 70%;
+    padding-top: 60px;
+    float: left;
+    text-align: center;
+}
+.gallery
+{
+    width: 100%;
+}  
+.gallery ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+  .gallery ul li
+{ 
+    display: flex;
+    flex-grow: 1; 
+}
+.gallery ul li img
+{
+    width: 100%;
+    height: 50vh;
+}
